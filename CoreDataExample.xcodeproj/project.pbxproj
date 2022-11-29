@@ -14,6 +14,10 @@
 		ED1ADD4229362A12006596ED /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADD4029362A12006596ED /* CoreDataExample.xcdatamodeld */; };
 		ED1ADD4429362A14006596ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADD4329362A14006596ED /* Assets.xcassets */; };
 		ED1ADD4729362A14006596ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADD4529362A14006596ED /* LaunchScreen.storyboard */; };
+		ED1ADD5629363439006596ED /* Makeup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADD5229363439006596ED /* Makeup+CoreDataClass.swift */; };
+		ED1ADD5729363439006596ED /* Makeup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADD5329363439006596ED /* Makeup+CoreDataProperties.swift */; };
+		ED1ADD5829363439006596ED /* MakeupDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADD5429363439006596ED /* MakeupDetails+CoreDataClass.swift */; };
+		ED1ADD5929363439006596ED /* MakeupDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADD5529363439006596ED /* MakeupDetails+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		ED1ADD4329362A14006596ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1ADD4629362A14006596ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1ADD4829362A14006596ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1ADD5229363439006596ED /* Makeup+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Makeup+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ED1ADD5329363439006596ED /* Makeup+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Makeup+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ED1ADD5429363439006596ED /* MakeupDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeupDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ED1ADD5529363439006596ED /* MakeupDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeupDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,10 @@
 		ED1ADD2B29362A12006596ED = {
 			isa = PBXGroup;
 			children = (
+				ED1ADD5229363439006596ED /* Makeup+CoreDataClass.swift */,
+				ED1ADD5329363439006596ED /* Makeup+CoreDataProperties.swift */,
+				ED1ADD5429363439006596ED /* MakeupDetails+CoreDataClass.swift */,
+				ED1ADD5529363439006596ED /* MakeupDetails+CoreDataProperties.swift */,
 				ED1ADD3629362A12006596ED /* CoreDataExample */,
 				ED1ADD3529362A12006596ED /* Products */,
 			);
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1ADD5829363439006596ED /* MakeupDetails+CoreDataClass.swift in Sources */,
 				ED1ADD3C29362A12006596ED /* ViewController.swift in Sources */,
+				ED1ADD5629363439006596ED /* Makeup+CoreDataClass.swift in Sources */,
+				ED1ADD5729363439006596ED /* Makeup+CoreDataProperties.swift in Sources */,
 				ED1ADD3829362A12006596ED /* AppDelegate.swift in Sources */,
+				ED1ADD5929363439006596ED /* MakeupDetails+CoreDataProperties.swift in Sources */,
 				ED1ADD3A29362A12006596ED /* SceneDelegate.swift in Sources */,
 				ED1ADD4229362A12006596ED /* CoreDataExample.xcdatamodeld in Sources */,
 			);

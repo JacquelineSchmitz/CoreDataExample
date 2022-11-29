@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Makeup" representedClassName="Makeup" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="makeupDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MakeupDetails" inverseName="makeup" inverseEntity="MakeupDetails"/>
+    </entity>
+    <entity name="MakeupDetails" representedClassName="MakeupDetails" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="preis" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="makeup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Makeup" inverseName="makeupDetails" inverseEntity="Makeup"/>
+    </entity>
 </model>
